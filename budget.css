@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5); /* Cool gradient background */
+    color: #333;
+    line-height: 1.6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for the card */
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
+    max-width: 600px;
+    width: 90%;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.7); /* Subtle text shadow */
+  }
+  
+  .budget-options {
+    display: flex;
+    justify-content: space-around; /* Space around items */
+    margin-top: 20px;
+  }
+  
+  .budget-link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #3498db;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Animation effects */
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .budget-link:hover {
+    background-color: #2980b9;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
